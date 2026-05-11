@@ -3,19 +3,18 @@ import { getAuth, GoogleAuthProvider } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
-// ─── REPLACE WITH YOUR FIREBASE PROJECT CONFIG ────────────────────────────────
-// 1. Go to https://console.firebase.google.com
-// 2. Create a project → Add Web App
-// 3. Copy the firebaseConfig object here
+// ─── FIREBASE PROJECT CONFIG ────────────────────────────────────
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID",
+  apiKey: "AIzaSyDiCk1hZuxwWi-BepzkCDzih5JbjrRGUSQ",
+  authDomain: "chatterly-e21be.firebaseapp.com",
+  databaseURL: "https://chatterly-e21be-default-rtdb.europe-west1.firebasedatabase.app",
+  projectId: "chatterly-e21be",
+  storageBucket: "chatterly-e21be.firebasestorage.app",
+  messagingSenderId: "165922730833",
+  appId: "1:165922730833:web:6b14ce4f22d8d517a3d970",
+  measurementId: "G-XXYEEH2TB5"
 };
-// ─────────────────────────────────────────────────────────────────────────────
+// ────────────────────────────────────────────────────────────────
 
 const app = initializeApp(firebaseConfig);
 
