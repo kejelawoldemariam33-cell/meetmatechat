@@ -1,0 +1,25 @@
+{
+  "appId": "com.yourcompany.chatterly",
+  "appName": "Chatterly",
+  "webDir": "build",
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "buildOptions": {
+      "keystorePath": "chatterly.keystore",
+      "keystoreAlias": "chatterly"
+    }
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1500,
+      "backgroundColor": "#5B4FE8",
+      "showSpinner": false
+    },
+    "StatusBar": {
+      "style": "Light",
+      "backgroundColor": "#5B4FE8"
+    }
+  }
+}
